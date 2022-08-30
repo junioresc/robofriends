@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SearchBox({ searchfield, searchChange}) {
+const SearchBox = ({ searchfield, searchChange}) => {
     return (
         <div className='searchbox'>
             <h1 className='title'>ROBOFRIENDS</h1>

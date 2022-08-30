@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card({ email, name, id }) {
+const Card = ({ email, name, id }) => {
 
     return (
         <div className='card'>
