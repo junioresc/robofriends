@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to top right, rgb(110, 110, 112), rgb(138, 138, 134), rgb(165, 166, 155), rgb(193, 194, 177), rgb(220, 222, 198), rgb(248, 250, 220), rgb(242, 250, 224), rgb(236, 249, 227), rgb(230, 249, 231), rgb(224, 248, 235), rgb(218, 248, 238), rgb(212, 247, 242));
+  background-image: url('./img/topography.svg');
 }
 
 code {
@@ -26,23 +26,27 @@ code {
   text-align: center;
   border: .25rem dashed black;
   border-radius: .5rem;
-  background-color: goldenrod;
+  background-color: gray;
   margin: 1rem 1.5rem;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .card:hover {
   transition: all .25s ease-out;
   transform: scale(1.05);
   cursor: pointer;
+  box-shadow: none;
 }
 
 .cardlist {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .title {
   font-family: 'TRON';
+  font-size: 2.5rem;
 }
 
 .searchbox {
